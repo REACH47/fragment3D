@@ -1,6 +1,5 @@
 import Header from "./Components/Header/Header";
 import Gallery from "./Components/Gallery/Gallery";
-import UploadModal from "./Components/UploadModal/UploadModal";
 import UploadButton from "./Components/UploadButton/UploadButton";
 import "./App.scss";
 
