@@ -17,7 +17,7 @@ const UploadModal = ({ visible, toggle }) =>
               Close
             </button>
           </div>
-          <div className="modal-overlay"></div>
+          <div className="modal-overlay" onClick={toggle}></div>
         </div>,
         document.body
       )
