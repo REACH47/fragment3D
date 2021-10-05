@@ -2,16 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "../UploadModal/UploadModal.scss";
 
-const UploadModal = ({ visible, toggle }) =>
-  visible
+function UploadModal({ visible, toggle }) {
+  return visible
     ? ReactDOM.createPortal(
         <div className="modal">
           <div className="modal-pop" role="dialog" aria-modal="true">
             <h3>Hello World</h3>
             <p>
-              Et sit saepe velit tenetur et consequatur in. Nihil doloribus
-              nulla nulla rem. Soluta illo et asperiores numquam earum nesciunt.
-              Vero odio voluptatem sunt sunt laboriosam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae veniam blanditiis obcaecati reiciendis maiores vitae
+              autem earum illum libero non. Est amet optio tempore fugiat ut
+              sequi sapiente tenetur saepe.
             </p>
             <button className="close-button" type="button" onClick={toggle}>
               Close
@@ -22,5 +23,6 @@ const UploadModal = ({ visible, toggle }) =>
         document.body
       )
     : null;
+}
 
 export default UploadModal;
