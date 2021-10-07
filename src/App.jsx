@@ -9,11 +9,7 @@ function App() {
     <div className="App">
       <Header title="Fragm3ntD" />
       <Gallery />
-<<<<<<< HEAD
-      <UploadForm />
-=======
       <UploadButton />
->>>>>>> 072843de276e320848fe69b12585a34277b5c6be
     </div>
   );
 }
