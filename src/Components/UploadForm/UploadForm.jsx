@@ -2,15 +2,17 @@ import React, { useState } from "react";
 import "./UploadForm.scss";
 
 /**
+ * Form component with 1 file input and 1 text input
  * @TODO Wrap the form inside a slide up modal.
- * @returns JSX form component with one file input and one text input as the title.
+ * @returns JSX Element
  */
 function UploadForm() {
     const [file, setfile] = useState(null);
 
     /**
-     * @TODO Save file to local storage and save url to the file to a json file.
-     * @param {*} event
+     * Currently saves file to browser storage and console logs a url to the file
+     * @TODO Save file to backend server and save url to the file to a json file.
+     * @param {event} event
      */
     const uploadFile = (event) => {
         // prevent page from refreshing
