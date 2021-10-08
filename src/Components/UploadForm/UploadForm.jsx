@@ -38,7 +38,7 @@ function UploadForm() {
             className="upload-form"
             onSubmit={(event) => uploadFile(event)}
         >
-            <h2 htmlFor="">Upload 3D model</h2>
+            <h2>Upload 3D model</h2>
             <label htmlFor="fileInput" className="label__file-input">
                 Select a .obj file to upload
             </label>
